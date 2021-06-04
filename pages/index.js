@@ -5,8 +5,6 @@ import Nav from '../components/Nav'
 import Results from '../components/Results'
 import requests from '../utils/requests'
 
-
-
 export default function Home({results}) {
   
   return (
@@ -14,9 +12,7 @@ export default function Home({results}) {
       <Head>
       <title>Hulu</title>
       <link rel="icon" href="/favicon.ico"/>
-      </Head>
-    
-     <h1>Hello sreekanth</h1>
+      </Head>    
      <Header />
      <Nav />
      <Results results={results}/>
